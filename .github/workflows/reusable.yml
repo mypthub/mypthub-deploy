@@ -11,5 +11,4 @@ jobs:
       - name: Call Marketplace Action
         uses: mypthub/mypthub-slack@v.0.2
         with:
-          who-to-greet: 'Mona the Octocat'
           slack-token: ${{ secrets.SLACK_BOT_OAUTH_TOKEN }}
