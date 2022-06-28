@@ -9,7 +9,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Call Marketplace Action
-        uses: mypthub/mypthub-slack@v.0.5
+        uses: mypthub/mypthub-slack@v.0.6
         with:
           who-to-greet: 'Mona the Octocat'
           slack-token: ${{ secrets.SLACK_BOT_OAUTH_TOKEN }}
