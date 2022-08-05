@@ -9,6 +9,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Call Marketplace Action
-        uses: mypthub/mypthub-slack@v0.11
+        uses: mypthub/mypthub-slack@v0.12
         with:
           slack-token: ${{ secrets.SLACK_BOT_OAUTH_TOKEN }}
